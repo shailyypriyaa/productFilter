@@ -1,0 +1,66 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+
+.leftMenu{
+    flex : 1;
+}
+
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+.h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #555;
+}
+
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cat{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+img{
+    width: 130px;
+    height: 230px;
+    object-fit: contain;
+}
+
+.name{
+    font-weight: 300;
+}
+
+.content{
+    flex: 4;
+}
